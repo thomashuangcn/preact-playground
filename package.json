@@ -20,6 +20,9 @@
     "build/*"
   ],
   "devDependencies": {
+    "@types/node-sass": "^4.11.0",
+    "css-loader": "^3.2.0",
+    "css-modules-typescript-loader": "^3.0.1",
     "eslint": "^4.9.0",
     "eslint-config-synacor": "^2.0.2",
     "jest": "^21.2.1",
@@ -29,7 +32,12 @@
     "preact-cli": "^2.1.0",
     "preact-cli-plugin-typescript": "^0.2.2",
     "preact-render-spy": "^1.2.1",
-    "sass-loader": "^7.3.1"
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.0",
+    "typed-scss-modules": "^0.0.12",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0"
   },
   "dependencies": {
     "preact": "^8.5.2",

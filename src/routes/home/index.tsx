@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import style from './style';
+import * as style from './style.scss';
 
 const Home = () => (
 	<div class={style.home}>
